@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  color: seagreen;
+  background-color: #303030;
+  size: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #ff0000;
+  color: seagreen;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: seagreen;
+  padding: 10px;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+strong {
+  font-size: 50px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+strong:hover{
+  color: teal;
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+#football {
+  font-size: 50px;
+  color: #ff0000;
+  text-align: center;
+}
+
+#football1 {
+  color: blue;
+  margin-left: 50px;
+  text-align: center;
+}
+#fppt {
+  width: 100px;
+  height: 100px;
+}
+
+#football:hover {
+  color: aqua;
+}
+
+#football1:hover {
+  color: aqua;
+}
+
+.video {
+  border-radius: 25px;
+  float: right;
+  margin-right: 50px;
+}
+
+.text1 {
+  color: rgb(136, 255, 0);
+  font-size: 25px;
+  width: 130%;
+}
+
+#elo {
+  width: auto;
+  height: auto;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  marker-end: none;
+  border-radius: 25px;
+  float: right;
+  align-items: center;
+  border-color: #ff0000;
+}
+#elo1 {
+  width: 270px;
+  height: 400px;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  marker-end: none;
+  border-radius: 25px;
+  float: right;
+  align-items: center;
+  border-color: #ff0000;
+}
+#xmastree{
+  width: auto;
+  height: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  marker-end: none;
+  border-radius: 25px;
+  float: right;
+  align-items: center;
+  border-color: #ff0000;
+  width: 300px;
+  height: 175px;
+}
+#kozep{
+  text-align: center;
+}
+
+#textx {
+  text-align: right;
+}
+
+body {
+   overflow: auto; /* Hide scrollbars */
+
+}
+
+#livgomb {
+  background-image: url("./anfield.jpg");
+  width: 300px;
+  height: 175px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: black;
+  font-style: italic;
+}
+
+a:hover{
+  color: #ff0000;
+}
